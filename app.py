@@ -26,7 +26,7 @@ ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(11)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(12)))
  
  #user='kdvdfejevfsheh'
  
