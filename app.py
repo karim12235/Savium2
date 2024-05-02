@@ -21,12 +21,12 @@ G = '\033[1;32m'
 L = '\033[1;31m'
 
 own_id= 761058551
-tele_bot='6893754773:AAEs1x5xzAfwhhpNeB_HvKl5EKwo_gJXhpU'
+tele_bot='7154902977:AAHbG7wNc9c2pGmrzyUx8yvkm9DjuAwuKXw'
 ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(9)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(11)))
  
  #user='kdvdfejevfsheh'
  
@@ -64,7 +64,7 @@ def create():
   print(decoded_data)
 
 
-executor=concurrent.futures.ThreadPoolExecutor(max_workers=600)
+executor=concurrent.futures.ThreadPoolExecutor(max_workers=1000)
 
 while True:
  executor.submit(create)
